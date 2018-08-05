@@ -1,0 +1,7 @@
+applications:
+  - name: easy-notess
+    buildpack: java_buildpack
+    path: target/easy-notes-0.0.1-SNAPSHOT.jar
+    domain: cfapps.io
+    services:
+      - mysql
